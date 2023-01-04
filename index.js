@@ -4,7 +4,6 @@ const express = require("express");
 const https = require("https");
 // importing body-parser 
 const bodyParser = require("body-parser");
-const { urlencoded } = require("body-parser");
 
 
 // Creating app using express 
@@ -19,6 +18,10 @@ const port = 3000;
 app.use(express.static("public"));
 // using the bodyParser in urlEncoder mode 
 app.use(bodyParser.urlencoded({extended:true}));
+
+app.get("/css/styles.css", (req,res) => {
+    res.sendFile(__dirname+"/public/css/styles.css");
+});
 
 
 // get function for "/" route 
