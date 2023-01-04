@@ -1,0 +1,26 @@
+{
+  "name": "the-weather-app",
+  "version": "1.0.0",
+  "description": "This is an app created to practice Express.js, Node.js and API calls.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MSB-s-Projects/The-Weather-App.git"
+  },
+  "author": "MSB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MSB-s-Projects/The-Weather-App/issues"
+  },
+  "homepage": "https://github.com/MSB-s-Projects/The-Weather-App#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
