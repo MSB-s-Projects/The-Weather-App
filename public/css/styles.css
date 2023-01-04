@@ -1,0 +1,16 @@
+body {
+  text-align: center;
+}
+
+.page-heading {
+  font-size: 3rem;
+  margin-top: 10%;
+}
+
+.lbl {
+  margin: 5px 0;
+}
+
+form {
+  margin: 20px 0;
+}
